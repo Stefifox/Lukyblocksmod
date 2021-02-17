@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lukyblocks", "Lukyblocks.csproj", "{13E30F93-756E-4C55-B19C-D9E5F219EFBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13E30F93-756E-4C55-B19C-D9E5F219EFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E30F93-756E-4C55-B19C-D9E5F219EFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E30F93-756E-4C55-B19C-D9E5F219EFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E30F93-756E-4C55-B19C-D9E5F219EFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95E86DC7-465B-46FB-A57C-2B69EDD8D5A5}
+	EndGlobalSection
+EndGlobal

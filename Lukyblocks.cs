@@ -4,5 +4,6 @@ namespace Lukyblocks
 {
 	public class Lukyblocks : Mod
 	{
+		
 	}
 }

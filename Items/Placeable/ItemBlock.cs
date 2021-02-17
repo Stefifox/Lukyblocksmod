@@ -3,11 +3,11 @@ using Terraria.ModLoader;
 
 namespace Lukyblocks.Items.Placeable
 {
-    public class WeaponBlock : ModItem
+    public class ItemBlock : ModItem
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Weapon Lukyblock");
+            DisplayName.SetDefault("Item Lukyblock");
             Tooltip.SetDefault("Broke me!");
         }
 
@@ -22,7 +22,7 @@ namespace Lukyblocks.Items.Placeable
             item.useTime = 10;
             item.useStyle = ItemUseStyleID.SwingThrow;
             item.consumable = true;
-            item.createTile = mod.TileType("WeaponBlock");
+            item.createTile = mod.TileType("ItemBlock");
         }
 
         public override void AddRecipes()
