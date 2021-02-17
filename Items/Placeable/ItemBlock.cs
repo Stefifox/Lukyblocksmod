@@ -22,13 +22,13 @@ namespace Lukyblocks.Items.Placeable
             item.useTime = 10;
             item.useStyle = ItemUseStyleID.SwingThrow;
             item.consumable = true;
-            item.createTile = mod.TileType("ItemBlock");
+            item.createTile = ModContent.TileType<Tiles.ItemBlock>();
         }
 
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.WoodenSword, 1);
+            recipe.AddIngredient(ItemID.CrystalShard, 10);
             recipe.AddIngredient(ModContent.ItemType<BaseCraftingBlock>(), 1);
             recipe.AddTile(TileID.CrystalBall);
             recipe.SetResult(this, 10);
