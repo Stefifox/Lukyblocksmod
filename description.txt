@@ -1,0 +1,7 @@
+This mod add some lukyblocks
+You can broke one for drop random item or weapons
+
+Lucybock types:
+- Item Block
+- Weapon Block
+- AllRandom Block

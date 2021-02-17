@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "r14K/FBEstdfg2eoKd5Jd+1HXWVDstvp8LopIvJGU9K2YCz6meYNzthBXJ3xJP+vxtEZv4K+YviKqWxLAxz7eg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stefi\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\Lukyblocks\\Lukyblocks.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stefi\\.nuget\\packages\\tmodloader.codeassist\\0.1.1\\tmodloader.codeassist.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
