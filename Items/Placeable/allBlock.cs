@@ -7,7 +7,7 @@ namespace Lukyblocks.Items.Placeable
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Lukyblock");
+            DisplayName.SetDefault("Luckyblock");
             Tooltip.SetDefault("Broke me!");
         }
 

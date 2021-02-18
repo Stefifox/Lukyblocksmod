@@ -1,13 +1,13 @@
 ﻿# LuckyBlock Mod
  ## by StefifoxApps
  
- This mod allows you to make some lukyblocks in Terraria with tModLoader
+ This mod allows you to make some luckyblocks in Terraria with tModLoader
  
  # Mod Content
  
- - Weapon Lukyblock: Drop random weapon
- - Item Lukyblock: Drop random item
- - Lukyblock: Drop item or weapon, try your luck!
+ - Weapon Luckyblock: Drop random weapon
+ - Item Luckyblock: Drop random item
+ - Luckyblock: Drop item or weapon, try your luck!
 
 All feaures is work in progress at the moment
  

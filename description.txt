@@ -1,7 +1,55 @@
-This mod add some lukyblocks
+This mod add some luckyblocks
 You can broke one for drop random item or weapons
 
-Lucybock types:
-- Item Block
-- Weapon Block
-- AllRandom Block
+Luckybock types:
+- Item Block: Drops random item
+- Weapon Block: Drops random weapon
+- Luckyblock: Drop random think
+
+How to craft
+
+Base Block - You need this Item to craft Luckyblock
+1x Topaz
+5x Any Iron Bar
+on Workbench
+----
+
+On Crystalball you can craft
+Weapon Luckyblock
+1x Gold / Platinium Short Sword
+1x Base Block
+
+Item Luckyblock
+10x Crystal Shards
+1x Base Block
+
+Luckyblock
+2x Base Blocks
+1x Wooden Sword
+50x Crystal Shards
+
+or in Workbench
+1x Item Luckyblok
+1x Weapon Luckyblock
+
+----
+
+If you want to suggest some features open an issue on GitHub
+
+More items and functionalities are in develop now!
+
+https://github.com/Stefifox/Lukyblocksmod/issues
+
+----
+Changelog:
+
+0.1.2
+- Fixed errors
+- Fixed Description.txt
+- Added new items in Luckyblock
+
+0.1.1
+- Fixed Mod immage
+
+0.1
+- First release

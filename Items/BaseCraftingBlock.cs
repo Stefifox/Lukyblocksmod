@@ -9,7 +9,7 @@ namespace Lukyblocks.Items
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Base Block");
-            Tooltip.SetDefault("This block enable you to craft Lukyblocks");
+            Tooltip.SetDefault("This block enable you to craft Luckyblocks");
         }
 
         public override void SetDefaults()
