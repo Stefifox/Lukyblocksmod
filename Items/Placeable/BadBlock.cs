@@ -24,5 +24,16 @@ namespace Lukyblocks.Items.Placeable
             item.consumable = true;
             item.createTile = ModContent.TileType<Tiles.BadBlock>();
         }
+
+        public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            recipe.AddIngredient(ModContent.ItemType<Items.BadBaseCraftingBlock>());
+            recipe.AddIngredient(ItemID.DirtBlock);
+            recipe.anyIronBar = true;
+            recipe.AddTile(TileID.CrystalBall);
+            recipe.SetResult(this, 1);
+            recipe.AddRecipe();
+        }
     }
 }
