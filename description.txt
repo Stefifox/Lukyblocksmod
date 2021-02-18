@@ -43,9 +43,10 @@ https://github.com/Stefifox/Lukyblocksmod/issues
 ----
 Changelog:
 
-0.3
+0.3.1
 - New secret block
 - Added mod Homepage
+- Fixed bugs
 
 0.2
 - New weapon! Lucky Sword only dropped by Weapon Luckyblock or Luckyblock
