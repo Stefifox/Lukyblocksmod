@@ -18,7 +18,7 @@ namespace Lukyblocks.Tiles
 
         public override bool Drop(int i, int j)
         {
-            int[] items = { ItemID.CrystalShard, ModContent.ItemType<Items.Placeable.ItemBlock>(), ModContent.ItemType<Items.Placeable.WeaponBlock>(), ItemID.WoodenSword, ItemID.Excalibur, ItemID.GoldShortsword, ItemID.CandyCaneSword, ItemID.BeamSword, ItemID.ChristmasHook, ItemID.PirateMap, ItemID.Bomb, ItemID.ChlorophyteBar};
+            int[] items = { ItemID.CrystalShard, ModContent.ItemType<Items.Placeable.ItemBlock>(), ModContent.ItemType<Items.Placeable.WeaponBlock>(), ItemID.WoodenSword, ItemID.Excalibur, ItemID.GoldShortsword, ItemID.CandyCaneSword, ItemID.BeamSword, ItemID.ChristmasHook, ItemID.PirateMap, ItemID.Bomb, ItemID.ChlorophyteBar, ModContent.ItemType<Items.Weapons.LuckySword>()};
             int x = Main.rand.Next(items.Length);
             drop = items[x];
             return true;

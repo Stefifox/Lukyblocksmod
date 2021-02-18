@@ -18,7 +18,7 @@ namespace Lukyblocks.Tiles
 
         public override bool Drop(int i, int j)
         {
-            int[] weaponID = { ItemID.WoodenSword, ItemID.Excalibur, ItemID.GoldShortsword, ItemID.CandyCaneSword, ItemID.BeamSword};
+            int[] weaponID = { ItemID.WoodenSword, ItemID.Excalibur, ItemID.GoldShortsword, ItemID.CandyCaneSword, ItemID.BeamSword, ModContent.ItemType<Items.Weapons.LuckySword>()};
             int x = Main.rand.Next(weaponID.Length);
             drop = weaponID[x];
             return true;
