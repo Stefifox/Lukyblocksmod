@@ -20,7 +20,7 @@ namespace Lukyblocks.Tiles
         {
             int[] items = { ItemID.CrystalShard, ModContent.ItemType<Items.Placeable.ItemBlock>(), ModContent.ItemType<Items.Placeable.WeaponBlock>(), ItemID.WoodenSword, ItemID.Excalibur, ItemID.GoldShortsword, ItemID.CandyCaneSword, ItemID.BeamSword, ItemID.ChristmasHook, ItemID.PirateMap, ItemID.Bomb, ItemID.ChlorophyteBar,
                 ModContent.ItemType<Items.Weapons.LuckySword>(), ModContent.ItemType<Items.Weapons.LuckyBow>(), ModContent.ItemType<Items.Placeable.BadBlock>(), ItemID.CrystalShard, ModContent.ItemType<Items.Placeable.ItemBlock>(), ModContent.ItemType<Items.Placeable.WeaponBlock>(),
-                ModContent.ItemType<Items.Placeable.BadBlock>(), ItemID.Blinkroot, ItemID.Daybloom, ItemID.Gel, ItemID.UnluckyYarn, ItemID.Fireblossom, ItemID.BrokenHeroSword,
+                ModContent.ItemType<Items.Placeable.BadBlock>(), ItemID.Blinkroot, ItemID.Daybloom, ItemID.Gel, ItemID.UnluckyYarn, ItemID.Fireblossom, ItemID.BrokenHeroSword, ModContent.ItemType<Items.Armor.LuckyHat>(),
                 ItemID.Waterleaf, ItemID.Keg, ItemID.Kimono, ModContent.ItemType<Items.BadBaseCraftingBlock>(), ItemID.Star, ItemID.Heart, ItemID.Tiara, ItemID.Flare, ItemID.Torch, ItemID.Umbrella };
             int x = Main.rand.Next(items.Length);
             drop = items[x];

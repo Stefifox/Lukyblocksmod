@@ -33,6 +33,15 @@ or in Workbench
 1x Weapon Luckyblock
 
 ----
+Lucky Hat
+50x Base Block
+50x Bad Base Block
+1x Item LuckyBlock
+1x Weapon Lucky Block
+in Crystalball
+or you can try your luck and drop it into a Luckyblock
+
+----
 
 If you want to suggest some features open an issue on GitHub
 
@@ -42,6 +51,9 @@ https://github.com/Stefifox/Lukyblocksmod/issues
 
 ----
 Changelog:
+
+0.5
+- Lucky Hat
 
 0.4
 - MORE ITEMS!
