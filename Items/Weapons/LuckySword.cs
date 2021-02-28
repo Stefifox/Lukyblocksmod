@@ -15,12 +15,12 @@ namespace Lukyblocks.Items.Weapons
 
 		public override void SetDefaults()
 		{
-			item.damage = 250;
+			item.damage = 110;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
-			item.useTime = 10;
-			item.useAnimation = 10;
+			item.useTime = 20;
+			item.useAnimation = 20;
 			item.knockBack = 20;
 			item.value = Item.buyPrice(platinum: 10);
 			item.rare = ItemRarityID.Purple;

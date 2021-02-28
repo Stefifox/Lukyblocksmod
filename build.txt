@@ -1,4 +1,4 @@
 displayName = Luckyblocks 
 author = Volpotto
-version = 0.5
+version = 0.5.2
 homepage = https://github.com/Stefifox/Lukyblocksmod/

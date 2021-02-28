@@ -4,13 +4,13 @@ using Terraria.ModLoader;
 
 namespace Lukyblocks.Items.Armor
 {
-    [AutoloadEquip(EquipType.Head)]
-    class LuckyHat : ModItem
+    [AutoloadEquip(EquipType.Body)]
+    class LuckyArmor : ModItem
     {
         public override void SetStaticDefaults()
         {
             base.SetStaticDefaults();
-            DisplayName.SetDefault("Lucky Hat");
+            DisplayName.SetDefault("Lucky Armor");
             Tooltip.SetDefault("Protect you");
         }
 
@@ -20,7 +20,7 @@ namespace Lukyblocks.Items.Armor
             item.height = 18;
             item.value = 10000;
             item.rare = ItemRarityID.Purple;
-            item.defense = 25;
+            item.defense = 45;
             item.expert = true;
             item.expertOnly = true;
         }
@@ -30,21 +30,19 @@ namespace Lukyblocks.Items.Armor
             player.buffImmune[BuffID.OnFire] = true;
             player.buffImmune[BuffID.Confused] = true;
             player.AddBuff(BuffID.HeartLamp, 100 * 60);
-            player.statManaMax2 += 20;
-            player.statLifeMax2 += 40;
+            player.statManaMax2 += 10;
         }
 
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ModContent.ItemType<Items.BaseCraftingBlock>(), 40);
-            recipe.AddIngredient(ModContent.ItemType<Items.BadBaseCraftingBlock>(), 40);
+            recipe.AddIngredient(ModContent.ItemType<Items.BaseCraftingBlock>(), 45);
+            recipe.AddIngredient(ModContent.ItemType<Items.BadBaseCraftingBlock>(), 45);
             recipe.AddIngredient(ModContent.ItemType<Items.Placeable.ItemBlock>(), 1);
             recipe.AddIngredient(ModContent.ItemType<Items.Placeable.WeaponBlock>(), 1);
             recipe.AddTile(TileID.CrystalBall);
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
-
     }
 }

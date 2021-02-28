@@ -28,7 +28,7 @@ namespace Lukyblocks.Items.Weapons
 			item.UseSound = SoundID.Item11; 
 			item.autoReuse = true;
 			item.shoot = 10;
-			item.shootSpeed = 30f; 
+			item.shootSpeed = 15f; 
 			item.useAmmo = AmmoID.Arrow;
 		}
 

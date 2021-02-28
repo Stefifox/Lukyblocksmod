@@ -52,6 +52,10 @@ https://github.com/Stefifox/Lukyblocksmod/issues
 ----
 Changelog:
 
+0.5.2
+- Balancing Items
+- Lucky Armor
+
 0.5
 - Lucky Hat
 

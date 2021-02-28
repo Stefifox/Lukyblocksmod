@@ -10,6 +10,7 @@ namespace Lukyblocks
 			{
 				Autoload = true
 			};
+
 		}
 	}
 }
